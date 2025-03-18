@@ -38,12 +38,18 @@ header {
     メインコンテンツ
    ================================== */
 main{
+    padding: 30px 20px;
+    max-width: 900px;
+    margin-right: auto;
+    margin-left: auto;
     margin-top: 100px;  /* headerが固定されているので、mainの内容がheaderと重ならないように上部に余白を追加 */
 }
 
 h2 {
     color: #2a7ae2;
     border-bottom: 2px solid #ddd;
+    margin-top: 40px;
+    padding-bottom: 5px;
 }
 
 /* ==================================
@@ -53,12 +59,14 @@ h2 {
     text-align: center;
     background-color: #fff;
     border-radius: 8px;
-    max-width: 900px;
+    padding: 30px;
+    margin-bottom: 30px;
 }
 
 .profile img {
     border-radius: 50%;
     width: 150px;
+    margin-bottom: 10px;
 }
 
 .profile p {
