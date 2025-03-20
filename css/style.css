@@ -86,6 +86,17 @@ h2 {
 /* ==================================
     スキル・資格カテゴリ
    ================================== */
+.skills{
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.skill-category {
+    margin-bottom: 15px;
+}
+
 
 /* ==================================
     セクション - 制作実績
