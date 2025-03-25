@@ -153,3 +153,52 @@ footer {
     padding: 15px;
     font-size: 14px;
 }
+
+/* ==================================
+    レスポンシブ対応（画面幅768px以下）
+   ================================== */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    header {
+        padding: 15px;
+    }
+
+    main{
+        padding: 15px;
+    }
+
+    .profile {
+        padding: 20px;
+    }
+
+    .profile img {
+        width: 120px;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    .career ul,
+    .skills ul {
+        padding-left: 10px;
+    }
+
+    .works {
+        padding: 15px;
+    }
+
+    .work-item {
+        padding: 10px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+
+    .btn {
+        width: 100px;
+        height: 40px;
+    }
+}
